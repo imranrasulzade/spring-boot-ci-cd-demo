@@ -15,6 +15,7 @@ public class HelloController {
         System.out.println("Hello World");
         System.out.println("Some");
         System.out.println("smthng");
+        System.out.println("Salam");
         return "Hello World!";
     }
 
