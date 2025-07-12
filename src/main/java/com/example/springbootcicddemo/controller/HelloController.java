@@ -20,4 +20,9 @@ public class HelloController {
         return "Hello World!";
     }
 
+    @GetMapping("/salam")
+    public String sayHello2() {
+        System.out.println("Salam");
+        return "Salam!";
+    }
 }
